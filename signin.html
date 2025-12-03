@@ -1,0 +1,53 @@
+<html>
+    <title>登录Mapslic</title>
+    <link type="image/png" rel="shortcut icon" href="./真实地形地图_hydraulicErosion_tropical_512x256.png" />
+    
+    <style>
+        body {
+            margin: 0;
+        }
+        #big {
+            position: fixed;
+            opacity: 0.2;
+            width: 1280px;
+            z-index: -1;
+        }
+        #small {
+            display: inline;
+            margin-top: 50px;
+            margin-left: 50px;
+            width: 100px;
+            height: 50px;
+        }
+        #headline {
+            display: inline;
+            text-align: center;
+            font-size: 60px;
+        }
+        #yhm {
+            display: block;
+            text-align: center;
+        }
+        #mm {
+            display: block;
+            margin-left: 15px;
+            text-align: center;
+        }
+        #signupbtn {
+            margin-left: 43%;
+            font-size: 20px;
+        }
+        #signinbtn {
+            margin-left: 60px;
+            font-size: 20px;
+        }
+    </style>
+
+    <img src="./真实地形地图_hydraulicErosion_tropical_512x256.png" id="big">
+    <label><img src="./mapslic.png" id="small"></label>
+    <label id="headline"><div> 登 录 </div></label><br>
+    <label id="yhm">用户名：<input type="text" placeholder="请输入用户名..."></label><br>
+    <label id="mm">密码：<input type="password" placeholder="请输入密码..."></label><br>
+    <a href="./signup1.html"><button id="signupbtn">注册</button></a>
+    <a href="./main.html"><button id="signinbtn">登录</button></a>
+</html>
